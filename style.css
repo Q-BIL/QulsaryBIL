@@ -1,0 +1,33 @@
+body {
+    background-image: url('sigma.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 5px; /* Reduce space between items */
+    text-align: center;
+    max-width: 900px; /* Adjust width */
+    margin: auto;
+    padding: 10px;
+}
+
+.product {
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+    color: white;
+}
+
+.product img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px; /* Slightly rounded corners */
+}
